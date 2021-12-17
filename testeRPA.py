@@ -63,7 +63,7 @@ printTela.save('imagem1.png')'''
 pyautogui.dragTo(549, 664, 2, button='left')
 
 
-123
+#estou terstando as versões
 
 
 
