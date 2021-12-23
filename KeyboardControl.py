@@ -1,4 +1,4 @@
-import pyautogui,
+import pyautogui
 from pynput.keyboard import Key, Controller
 
 keyb = Controller()
@@ -17,9 +17,10 @@ keyb = Controller()
 
 # DIGITAR COMBINAÇÃO DE TECLAS
 
-#with keyb.pressed(Key.cmd):
-#    keyb.press('e')
-#    keyb.release('e')
+pyautogui.leftClick(x=603, y=617, interval=0.25)
+with keyb.pressed(Key.shift):
+    keyb.press(Key.left)
+    keyb.release(Key.left)
 
 #teclas = pyautogui.KEYBOARD_KEYS
 #print(teclas)
