@@ -71,7 +71,7 @@ with Controller().pressed(Key.shift):
 #pyautogui.prompt('escreva e aperte ok') #digite alguma coisa confirm ou cancele
 
 
-pyautogui.press('prtsc')
+#pyautogui.press('prtsc')
 
 
 # --------- TIRAR PRINT DE TELA ------------
